@@ -5,13 +5,13 @@
                 <div class="SideMenu">
                     <a class="toggleSideMenu" href="#"><img src="/images/nav.png" alt="" /></a>
                     <ul class="SideNav">
-                        <li><a href="#"><i><img src="/images/user.png" alt="" /></i><span>Profile</span></a></li>
+                        <li><a href="#"><i><img src="/images/statistics.png" alt="" /></i><span>Dashboard</span></a></li>
                         <li><a href="#"><i><img src="/images/lock.png" alt="" /></i><span>Log Out</span></a></li>
                         <li><a href="#"><i><img src="/images/user.png" alt="" /></i><span>Profile</span></a></li>
                         <li><a href="#"><i><img src="/images/lock.png" alt="" /></i><span>Log Out</span></a></li>
                         <li><a href="#"><i><img src="/images/user.png" alt="" /></i><span>Profile</span></a></li>
                         <li><a href="#"><i><img src="/images/lock.png" alt="" /></i><span>Log Out</span></a></li>
-                        <li><a href="#"><i><img src="/images/user.png" alt="" /></i><span>Profile</span></a></li>
+                        <li><a href="#"><i><img src="/images/settings.png" alt="" /></i><span>Pengaturan</span></a></li>
                         <div class="clear"></div>
                     </ul>
                     <div class="clear"></div>
@@ -51,19 +51,21 @@
             </div>
         </header>
         <script type="text/javascript" src="/js/responsive-nav.js"></script>
-        <div class="content">
-            <nav class="menu_box column_left">
-                <h3>Menu Box</h3>
-                <div class="menu_box_list">
-                    <ul>
-                        <li><a href="#" class="messages"><span>Messages</span><label class="digits">24</label><div class="clear"></div></a></li>
-                        <li class="active"><a href="#" class="invites"><span>Invites</span><label class="digits active">3</label><div class="clear"></div></a></li>
-                        <li><a href="#" class="events"><span>Events</span><label class="digits">5</label><div class="clear"></div></a></li>
-                        <li><a href="#" class="account_settings"><span>Account Settings</span></a></li>
-                        <li><a href="#" class="statistics"><span>Statistics</span></a></li>                         
-                    </ul>
+        <main class="content">
+            <div class="row">
+                <div class="menu_box col-3">
+                    <h3>Menu Box</h3>
+                    <div class="menu_box_list">
+                        <ul>
+                            <li><a href="#" class="messages"><span>Messages</span><label class="digits">24</label><div class="clear"></div></a></li>
+                            <li class="active"><a href="#" class="invites"><span>Invites</span><label class="digits active">3</label><div class="clear"></div></a></li>
+                            <li><a href="#" class="events"><span>Events</span><label class="digits">5</label><div class="clear"></div></a></li>
+                            <li><a href="#" class="account_settings"><span>Account Settings</span></a></li>
+                            <li><a href="#" class="statistics"><span>Statistics</span></a></li>                         
+                        </ul>
+                    </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </main>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.template', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

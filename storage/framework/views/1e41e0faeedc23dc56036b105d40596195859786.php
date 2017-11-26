@@ -9,6 +9,7 @@
         <!-- Fonts -->
         <link href="/css/style.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="/css/nav.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="/css/grid.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="/css/raleway_fonts.css" rel="stylesheet" type="text/css">
 
         <script type="text/javascript" src="/js/jquery.js"></script>
